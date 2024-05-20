@@ -36,7 +36,7 @@ right = \absolute {
   fis''4.-- ais'8-_ b'-_ dis''8 ~ |
   4.-- ais'8-_ b'-_ dis''8-_ |
   e''-_ dis''-_ b'2\) |
-  r2 ais''8 b'' |
+  r2 ais''8\( b'' |
 
   fis'''8-> ais'' b'' dis'''-> ais'' b'' |
   fis'''-> ais'' b'' dis'''-> ais'' b'' |
@@ -46,7 +46,7 @@ right = \absolute {
   fis'''8-> ais'' b'' dis'''-> ais'' b'' |
   fis'''-> ais'' b'' dis'''-> ais'' b'' |
   ais''' b''' ais''' fis''' cis''' ais'' |
-  ais'' b'' ais'' fis'' ais' b' |
+  ais'' b'' ais'' fis''\) ais'\( b' |
 
   fis''8-> ais' b' dis''-> ais' b' |
   fis''-> ais' b' dis''-> ais' b' |
@@ -56,7 +56,7 @@ right = \absolute {
   fis''8-> ais' b' dis''-> ais' b' |
   fis''-> ais' b' dis''-> ais' b' |
   ais'' b'' ais'' fis'' cis'' ais' |
-  ais' b' ais' fis' ais b |
+  ais' b' ais' fis'\) ais\( b |
 
   \clef "bass" fis'8-> ais b dis'-> ais b |
   fis'-> ais b dis'-> ais b |
@@ -71,7 +71,7 @@ right = \absolute {
   <<
     {
       \voiceOne
-      <ais b fis'>2. |
+      <ais b fis'>2.\) |
       q2 r8. e'16 |
       <fis b dis'>4.. cis'16 q8. e'16 |
       q2 \tuplet 6/4 { fis16 b cis' \clef "treble" fis' b' cis'' } |
