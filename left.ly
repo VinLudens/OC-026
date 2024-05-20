@@ -28,9 +28,91 @@ left = \absolute {
   cis,-. gis,-. e-. |
   cis,-. gis,-. e-. |
 
-  gis,4 dis-.fis-. |
+  gis,4-. dis-.fis-. |
   fis,-. dis-. fis-. |
   cis,-. gis,-. e-. |
   cis,-. gis,-. e-. |
+
+  gis4-. dis'-.fis'-. |
+  fis-. dis'-. fis'-. |
+  cis-. gis-. e'-. |
+  cis-. gis-. e'-. |
+
+  \clef "treble" gis'4 dis'' fis'' |
+  fis' dis'' fis'' |
+  cis' gis' e'' |
+  cis' gis' e'' |
+
+  gis'4 dis'' fis'' |
+  fis' dis'' fis'' |
+  cis' gis' e'' |
+  e' b' r |
+
+  \clef "bass" gis4 dis' fis' |
+  fis dis' fis' |
+  cis gis e' |
+  cis gis e' |
+
+  gis4 dis' fis' |
+  fis dis' fis' |
+  cis gis e' |
+  e b r |
+
+  gis,4 dis fis8 dis |
+  fis,4 dis fis8 dis |
+  cis,4 gis, e8 gis, |
+  cis,4 gis, e8 gis, |
+
+  gis,4 dis fis8 dis |
+  fis,4 dis fis8 dis |
+  cis,4 gis, e8 gis, |
+  cis,4 gis, e8 gis, |
+
+  <<
+    {
+      \voiceTwo
+      gis,2.
+      fis,
+      cis,
+      cis,
+
+      gis2.
+      fis
+      cis
+      cis
+
+      \clef "treble" gis'2.
+      fis'
+      cis'
+      cis'
+
+      gis''2.
+      fis''
+      cis''16 gis'' cis''' e''' cis''' gis'' cis'' gis'' \tuplet 5/4 { cis''' e''' \change Staff = "right" fis''' b''' dis'''' } |
+      s2. |
+    }
+    \new Voice {
+      \voiceOne
+      \repeat unfold 6 { dis16 fis } |
+      \repeat unfold 6 { dis16 fis } |
+      \repeat unfold 6 { gis,16 e } |
+      \repeat unfold 4 { gis,16 e } r4 |
+
+      \repeat unfold 6 { dis'16 fis' } |
+      \repeat unfold 6 { dis'16 fis' } |
+      \repeat unfold 6 { gis16 e' } |
+      \repeat unfold 4 { gis16 e' } r4 |
+
+      \repeat unfold 6 { dis''16 fis'' } |
+      \repeat unfold 6 { dis''16 fis'' } |
+      \repeat unfold 6 { gis'16 e'' } |
+      \repeat unfold 4 { gis'16 e'' } r4 |
+
+      \repeat unfold 6 { dis'''16 fis''' } |
+      \repeat unfold 6 { dis'''16 fis''' } |
+      s2. |
+      s2. |
+    }
+  >> \oneVoice
 
 }
