@@ -93,23 +93,23 @@ right = \absolute {
     }
     \new Voice {
       \voiceTwo
-      \repeat unfold 6 { ais16 b } |
-      \repeat unfold 6 { ais16 b } |
+      \repeat tremolo 6 { ais16 b } |
+      \repeat tremolo 6 { ais16 b } |
       s2. |
       s2. |
 
-      \repeat unfold 6 { ais'16 b' } |
-      \repeat unfold 6 { ais'16 b' } |
+      \repeat tremolo 6 { ais'16 b' } |
+      \repeat tremolo 6 { ais'16 b' } |
       s2. |
       s2. |
 
-      \repeat unfold 6 { ais''16 b'' } |
-      \repeat unfold 6 { ais''16 b'' } |
+      \repeat tremolo 6 { ais''16 b'' } |
+      \repeat tremolo 6 { ais''16 b'' } |
       s2. |
       s2. |
 
-      \repeat unfold 6 { ais'''16 b''' } |
-      \repeat unfold 6 { ais'''16 b''' } |
+      \repeat tremolo 6 { ais'''16 b''' } |
+      \repeat tremolo 6 { ais'''16 b''' } |
       s2. |
       s2. |
     }

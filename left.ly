@@ -93,23 +93,23 @@ left = \absolute {
     }
     \new Voice {
       \voiceOne
-      \repeat unfold 6 { dis16 fis } |
-      \repeat unfold 6 { dis16 fis } |
-      \repeat unfold 6 { gis,16 e } |
-      \repeat unfold 4 { gis,16 e } r4 |
+      \repeat tremolo 6 { dis16 fis } |
+      \repeat tremolo 6 { dis16 fis } |
+      \repeat tremolo 6 { gis,16 e } |
+      \repeat tremolo 4 { gis,16 e } r4 |
 
-      \repeat unfold 6 { dis'16 fis' } |
-      \repeat unfold 6 { dis'16 fis' } |
-      \repeat unfold 6 { gis16 e' } |
-      \repeat unfold 4 { gis16 e' } r4 |
+      \repeat tremolo 6 { dis'16 fis' } |
+      \repeat tremolo 6 { dis'16 fis' } |
+      \repeat tremolo 6 { gis16 e' } |
+      \repeat tremolo 4 { gis16 e' } r4 |
 
-      \repeat unfold 6 { dis''16 fis'' } |
-      \repeat unfold 6 { dis''16 fis'' } |
-      \repeat unfold 6 { gis'16 e'' } |
-      \repeat unfold 4 { gis'16 e'' } r4 |
+      \repeat tremolo 6 { dis''16 fis'' } |
+      \repeat tremolo 6 { dis''16 fis'' } |
+      \repeat tremolo 6 { gis'16 e'' } |
+      \repeat tremolo 4 { gis'16 e'' } r4 |
 
-      \repeat unfold 6 { dis'''16 fis''' } |
-      \repeat unfold 6 { dis'''16 fis''' } |
+      \repeat tremolo 6 { dis'''16 fis''' } |
+      \repeat tremolo 6 { dis'''16 fis''' } |
       s2. |
       s2. |
     }
